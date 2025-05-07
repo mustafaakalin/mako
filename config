@@ -1,29 +1,42 @@
 sort=-time
 layer=overlay
-background-color=#2e3440
-width=300
-height=110
-border-size=2
+width=350
+height=120
+margin=10
+padding=12
+
+background-color=#2e3440cc
 border-color=#88c0d0
-border-radius=15
-background-color=#fff000
+border-size=1
+border-radius=18
+
 icons=1
-progress-color=#042478
 max-icon-size=64
+progress-color=#5e81ac
+
+font=JetBrainsMono Nerd Font 10
+text-color=#eceff4
+
 default-timeout=5000
 ignore-timeout=1
-font=monospace 10
+
+anchor=top-right
 
 [urgency=low]
-border-color=#cccccc
+border-color=#4c566acc
+text-color=#d8dee9
+progress-color=#434c5ecc
 
 [urgency=normal]
 border-color=#d08770
+progress-color=#ebcb8b
 
 [urgency=high]
 border-color=#bf616a
 default-timeout=0
+progress-color=#bf616a
 
 [category=mpd]
 default-timeout=2000
 group-by=category
+
